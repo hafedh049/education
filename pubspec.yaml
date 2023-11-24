@@ -1,0 +1,37 @@
+name: education
+description: An educational platform
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.3.2
+  fluttertoast: ^8.2.2
+  get: ^4.6.5
+  adaptive_theme: ^3.2.1
+  font_awesome_flutter: ^10.4.0
+  google_fonts: ^4.0.5
+  flutter_animate: ^4.1.1+1
+  url_launcher: ^6.1.11
+  flutter_animated_button: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - assets/lottie/
+    - assets/icon/
