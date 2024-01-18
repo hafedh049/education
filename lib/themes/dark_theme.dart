@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../globals.dart';
+import '../helpers/globals.dart';
 
 // Define the primary and secondary color palettes
 const Color primaryColor = Color(0xFF3FC5F0);

@@ -1,6 +1,6 @@
 # education
 
-An educational platform
+A new Flutter project.
 
 ## Getting Started
 
