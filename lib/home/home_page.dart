@@ -73,14 +73,7 @@ class _HomePageState extends State<HomePage> {
                               child: Wrap(
                                 alignment: WrapAlignment.center,
                                 runAlignment: WrapAlignment.center,
-                                children: _menus
-                                    .map(
-                                      (Map<String, dynamic> item) => Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(8, 0, 0, 0),
-                                        child: MenuItem(item: item["title"], color: item["color"]),
-                                      ),
-                                    )
-                                    .toList(),
+                                children: _menus.map((Map<String, dynamic> item) => Padding(padding: const EdgeInsetsDirectional.fromSTEB(8, 0, 0, 0), child: MenuItem(item: item["title"], color: item["color"]))).toList(),
                               ),
                             ),
                             const Spacer(),
